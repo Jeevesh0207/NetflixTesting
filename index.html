@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="navstyle.css">
+</head>
+
+<body>
+    <div class="blocker" onclick="hideall();"></div>
+
+
+    <div class="header">
+        <div class="Left">
+            <div class="Logo" id="Logo_id">
+                <img src="img/pngwing.com.png" alt="">
+            </div>
+            <div class="Nav">
+                <div class="browser" onclick="browsernav();" id="browser_id">
+                    <a>Browser</a><i class="fa-solid fa-caret-down" id="browserdnid"></i>
+                    <div class="browsernav">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">My List</a></li>
+                            <li><a href="">Avilable for Download</a></li>
+                            <li><a href="">The Summer Edition</a></li>
+                            <li><a href="">Celebrating Disability with Dimension</a></li>
+                            <li><a href="">Hindi</a></li>
+                            <li><a href="">Tamil</a></li>
+                            <li><a href="">Punjabi</a></li>
+                            <li><a href="">Teluge</a></li>
+                            <li><a href="">Malayalam</a></li>
+                            <li><a href="">Marathi</a></li>
+                            <li><a href="">Bengali</a></li>
+                            <li><a href="">English</a></li>
+                            <li><a href="">Action</a></li>
+                            <li><a href="">Anime</a></li>
+                            <li><a href="">Award Winner</a></li>
+                            <li><a href="">Biographical</a></li>
+                            <li><a href="">Blockbusters</a></li>
+                            <li><a href="">Bollywood</a></li>
+                            <li><a href="">Kids & Family</a></li>
+                            <li><a href="">Comedies</a></li>
+                            <li><a href="">Documentaries</a></li>
+                            <li><a href="">Dramas</a></li>
+                            <li><a href="">Fantasy</a></li>
+                            <li><a href="">Hollywood</a></li>
+                            <li><a href="">Horror</a></li>
+                            <li><a href="">International</a></li>
+                            <li><a href="">Indian</a></li>
+                            <li><a href="">Music & Musicals</a></li>
+                            <li><a href="">Reality & Talk</a></li>
+                            <li><a href="">Romance</a></li>
+                            <li><a href="">Sci-Fi</a></li>
+                            <li><a href="">Stand-Up</a></li>
+                            <li><a href="">Thrillers</a></li>
+                            <li><a href="">United States</a></li>
+                            <li><a href="">Audio Description in English</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">TV Shows</a></li>
+                    <li><a href="">Movies</a></li>
+                    <li><a href="">New & Popular</a></li>
+                    <li><a href="">My List</a></li>
+                    <li><a href="">Browse by Languages</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right_width" id="right_widthid">
+            <div class="Right">
+                <div class="topnavsearch" id="topnavsearchId">
+                    <div class="navsearch" id="navsearchId">
+                        <div class="box1" id="box1id" onclick="navsearch();"><i
+                                class="fa-solid fa-magnifying-glass"></i></div>
+                    </div>
+                    <div class="inp_div">
+                        <input type="text" placeholder="Titles, people, genres">
+                    </div>
+                </div>
+                <div class="boxx1">
+                   <a href="/allpage/search.html"> <i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="box2"><a href="">Children</a></div>
+                <div class="box3"><a href=""><i class="fa-sharp fa-regular fa-bell"></i></a></div>
+                <div class="box4" onmouseover="showbox4nav()"  onclick="showbox4fullnav()" id="box4_id">
+                    <a><img src="img/man.png" alt=""><i class="fa-solid fa-caret-down   rotate" id="navdownid"></i></a>
+                    <div class="small_box4">
+                        <div class="up">
+                            <i class="fa-solid fa-caret-up"></i>
+                        </div>
+                    <ul>
+                        <li><a href=""><img src="img/man.png" alt="">User1</a></li>
+                        <li><a href=""><img src="img/woman.png" alt="">User2</a></li>
+                        <li><a href=""><img src="img/woman (1).png" alt="">User3</a></li>
+                        <li><a href=""><img src="img/woman (2).png" alt="">User4</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-pen"></i>Manage Profiles</a></li>
+                        <li><a href=""><i class="fa-solid fa-user-pen"></i>Transfer Profile</a></li>
+                        <li><a href=""><i class="fa-solid fa-user"></i>Account</a></li>
+                        <li><a href=""><i class="fa-solid fa-question"></i>Help Center</a></li>
+                    </ul>
+                    <div class="bottom">
+                        <p>Sign out of Netflix</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="api.js"></script>
+    <script src="https://kit.fontawesome.com/ad826450d8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
